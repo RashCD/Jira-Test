@@ -1,12 +1,8 @@
 on:
     # Run on every push on every branch
     push:
-        branches-ignore:
-            # Ignore branches automatically created by github-rebase
-            - rebase-pull-request**
-            - cherry-pick-rebase-pull-request**
-            - master
-            - main
+        branches:
+            - develop
     # Run when pull requests get labeled
     pull_request:
         types: [labeled]
