@@ -8,7 +8,7 @@ on:
     # Run when pull requests get labeled
     pull_request:
         types: [labeled]
-
+name: Automatic Rebase PR
 jobs:
     auto-rebase:
         name: AutoRebase
