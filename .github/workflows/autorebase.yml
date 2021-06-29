@@ -6,6 +6,7 @@ on:
             - rebase-pull-request**
             - cherry-pick-rebase-pull-request**
             - master
+            - main
     # Run when pull requests get labeled
     pull_request:
         types: [labeled]
